@@ -6,10 +6,20 @@
 
 form {
   flex-direction: column;
+  margin-top: 150px;
 }
 
 .butt, input {
   margin: 10px 15px 15px 10px;
+}
+
+.collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.collapse {
+  float: left;
 }
 
 /*# sourceMappingURL=style.css.map */

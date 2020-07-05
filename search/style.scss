@@ -6,10 +6,22 @@
 form {
     @extend %centred-element;
     flex-direction: column;
+    margin-top:150px;
+   
 }
 .butt,input {
     @extend %centred-element;
     margin: 10px 15px 15px 10px;
 }
+%righ{
+    display: flex;
+    justify-content: flex-end;
+}
+.collapse {
+    @extend %righ;
+    float: left;
+
+}
+
 
 
