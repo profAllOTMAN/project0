@@ -1,0 +1,15 @@
+%centred-element {
+    display: flex;
+    justify-content: center;
+    margin: 0px 5px 5px 0px;
+}
+form {
+    @extend %centred-element;
+    flex-direction: column;
+}
+.butt,input {
+    @extend %centred-element;
+    margin: 10px 15px 15px 10px;
+}
+
+
