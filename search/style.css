@@ -1,0 +1,38 @@
+.butt, input, form {
+  display: flex;
+  justify-content: center;
+  margin: 0px 5px 5px 0px;
+}
+
+form {
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.butt, input {
+  margin: 10px 15px 15px 10px;
+}
+
+.collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.collapse {
+  float: left;
+}
+
+span {
+  font-size: 1.6em;
+  color:black;
+  margin-bottom:30px;
+}
+label{
+  margin-bottom: 20px;
+}
+.form-control{
+  margin-bottom: 20px;
+  width: 60%;
+  align-self: center;
+}
+/*# sourceMappingURL=style.css.map */
